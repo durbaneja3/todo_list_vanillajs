@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+button {
+  background-color: #266ef1;
+  color: #fff;
+  border: 1px solid #266ef1;
+  border-radius: 7px;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.034) 0px 1px 3px, rgba(0, 0, 0, 0.158) 0px 1px 2px;
+  font-weight: 600;
+}
+.navbar h1 {
+  background-color: #266ef1;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.update form {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+
+.deleteBtn {
+  background-color: crimson;
+}
+.button-wrapper button:first-child {
+  background-color: rgb(99, 99, 99);
+}
+
+.app input {
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid #333;
+  border-radius: 7px;
+  margin-right: 0.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.todo h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
